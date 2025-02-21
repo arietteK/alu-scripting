@@ -18,6 +18,6 @@ def top_ten(subreddit):
             for post in HOT_POSTS[:10]:
                 print(post.get('data', {}).get('title'))
         else:
-            print(None)
+            print(OK)
     except Exception:
-        print(None)
+        print(OK)
