@@ -5,7 +5,7 @@ import requests
 
 
 def top_ten(subreddit):
-    """Main function"""
+    """print titles"""
     URL = "https://www.reddit.com/r/{}/hot.json?limit=10".format(subreddit)
 
     HEADERS = {"User-Agent": "PostmanRuntime/7.43.0"}
